@@ -6,13 +6,243 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="css/index.css" />
     <title>Food Blog Newsletter</title>
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css"
+      integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc="
+      crossorigin="anonymous"
+    />
+
+    <link
+      href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,900|Source+Sans+Pro:300,900&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
-    <main>
-      <header>
-        <img class="banner" src="img/banner.png" alt="" />
-      </header>
-    </main>
+    <header>
+      <img class="banner" src="img/banner.png" alt="" />
+      <nav class="nav">
+        <ul class="nav__list">
+          <li class="nav__item"><a href="#" class="nav__link">Blog</a></li>
+          <li class="nav__item">
+            <a href="#" class="nav__link">YouTube</a>
+          </li>
+          <li class="nav__item">
+            <a href="#" class="nav__link">Instagram</a>
+          </li>
+          <li class="nav__item">
+            <a href="#" class="nav__link">Contact us</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <!-- Introduction -->
+    <section class="intro" id="home">
+      <h1 class="section__title section__title--intro">
+        Hi Hannah, <strong>I'm glad you're here!</strong>
+      </h1>
+      <p class="section__subtitle section__subtitle--intro">let me feed you!</p>
+      <img
+        src="img/pasta.png"
+        alt="a picture of a bowl of pasta"
+        class="intro__img"
+      />
+    </section>
+
+    <!-- About the blog -->
+    <section class="about-us" id="about">
+      <h2>About us</h2>
+      <p>
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vitae,
+        blanditiis quibusdam accusamus sequi eum, tempore impedit molestias
+        beatae saepe ipsa mollitia nostrum non quod earum eveniet rerum quasi
+        culpa provident.
+      </p>
+    </section>
+
+    <!-- Browse our recipes (grid layout) -->
+    <section class="my-work" id="work">
+      <h2 class="section__title section__title--work">Plant-based recipes</h2>
+      <p>
+        On our blog and Instagram you will find all our recipes with links to our YouTube video recipes.
+      </p>
+
+      <div class="portfolio">
+        <!-- Portfolio item 1 -->
+        <div class="portfolio__text portfolio__text-1">
+          <h3 class="portfolio__subtitle">Padel Scorekeeping App</h3>
+          <p>
+            Collaborative project. Mobile app developed for both iOS and
+            Android. Designed and prototyped using Figma and built using React
+            Native. Deployed on Apple App Store and Google Play.
+          </p>
+        </div>
+        <a
+          href="#"
+          class="portfolio__item portfolio__item-1"
+          target="_blank"
+        >
+          <img
+            src="img/pasta.png"
+            alt=""
+            class="portfolio__img portfolio__img-1"
+          />
+        </a>
+
+        <!-- Portfolio item 2 -->
+        <div class="portfolio__text portfolio__text-2">
+          <h3 class="portfolio__subtitle">Chrome Extension</h3>
+          <p>
+            An extension built from scratch and deployed to the Chrome browser.
+          </p>
+          <p>
+            Bookmarks and displays any links by input, and can also with a
+            single click save the link for the current tab in focus. This is a
+            great way to save recipes found in the wild wild web, and separate
+            them from an already cluttered Chrome bookmarks folder.
+          </p>
+        </div>
+        <a
+          href="#"
+          class="portfolio__item portfolio__item-2"
+          target="_blank"
+        >
+          <img
+            src="img/pasta.png"
+            alt=""
+            class="portfolio__img portfolio__img-2"
+          />
+        </a>
+
+        <!-- Portfolio item 3 -->
+        <div class="portfolio__text portfolio__text-3">
+          <h3 class="portfolio__subtitle">Blackjack Game</h3>
+          <p>
+            Developed with CSS/JavaScript. The classic game of Blackjack.
+            featuring an engaging layout, responsive updates from the Blackjack
+            dealer, your name and remaining bankroll, .
+          </p>
+        </div>
+        <a
+          href="#"
+          class="portfolio__item portfolio__item-3"
+          target="_blank"
+        >
+          <img
+            src="img/pasta.png"
+            alt=""
+            class="portfolio__img portfolio__img-3"
+          />
+        </a>
+
+        <!-- Portfolio item 4 -->
+        <div class="portfolio__text portfolio__text-4">
+          <h3 class="portfolio__subtitle">Passenger Counter</h3>
+          <p>
+            Developed with JavaScript. A streamlined counting app featuring a
+            counter, an increment button, and a save button that logs the
+            counted number to an array.
+          </p>
+        </div>
+        <a
+          href="#"
+          class="portfolio__item portfolio__item-4"
+          target="_blank"
+        >
+          <img
+            src="img/pasta.png"
+            alt=""
+            class="portfolio__img portfolio__img-4"
+          />
+        </a>
+
+    </section>
+
+    <!-- Check out our latest video -->
+
+    <section class="my-services" id="services">
+      <div class="section__title--container">
+        <h2 class="section__title section__title--services">Check out our latest video</h2>
+      </div>
+
+      <div>
+        <a
+          href="https://youtube.com/"
+          class="portfolio__item portfolio__item-3"
+          target="_blank"
+        >
+          <img
+            src="img/pasta.png"
+            alt=""
+            class="portfolio__img portfolio__img-3"
+          />
+        </a>
+      </div>
+      
+      <div class="services">
+        <div class="service">
+          <h3>New videos uploaded weekly</h3>
+          <p>
+            Visit our YouTube channel for weekly content where we make scrumptious plant-based food. Inspired by all the cuisines of the world, you will find a lot of never before seen fusions that you'll so want to make yourself. Don't forget to subscribe to support the channel!
+          </p>
+        </div>
+
+      <a href="#work" class="btn">Watch more</a>
+    </section>
+
+    
+
+    <!-- Footer -->
+    <footer class="footer">
+      <ul class="social-list">
+        <li class="social-list__item">
+          <a
+            href="https://www.linkedin.com/in/fredrikridderfalk/"
+            class="social-list__link"
+            target="_blank"
+            ><i class="fab fa-linkedin-in"></i
+          ></a>
+        </li>
+        <li class="social-list__item">
+          <a
+            href="https://github.com/FredrikRidderfalk"
+            class="social-list__link"
+            target="_blank"
+            ><i class="fab fa-github"></i
+          ></a>
+        </li>
+        <li class="social-list__item">
+          <a
+            href="https://twitter.com/Ridderfalk"
+            class="social-list__link"
+            target="_blank"
+            ><i class="fab fa-twitter"></i
+          ></a>
+        </li>
+        <li class="social-list__item">
+          <a href="" class="social-list__link"
+            ><i class="fab fa-youtube"></i
+          ></a>
+        </li>
+        <li class="social-list__item">
+          <a href="" class="social-list__link"><i class="fas fa-globe"></i></a>
+        </li>
+      </ul>
+
+      <p>
+        You can
+        <a href="#" class="footer__link">update your preferences</a> or
+        <a href="#" class="footer__link">unsubscribe from the newsletter here</a
+        >.
+      </p>
+    </footer>
 
     <script src="js/index.js"></script>
   </body>
