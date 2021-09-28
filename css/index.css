@@ -335,12 +335,15 @@ header {
 
   .portfolio__text-2 {
     grid-area: paragraph-2;
+    text-align: right;
   }
-}
 
-@media (min-width: 600px) {
   .portfolio__text--recipes {
     text-align: center;
+  }
+
+  .portfolio__text {
+    padding: 0.5em 0;
   }
 }
 
