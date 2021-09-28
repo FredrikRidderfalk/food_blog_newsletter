@@ -316,8 +316,8 @@ header {
     grid-template-areas:
       "img-1 paragraph-1"
       "paragraph-2 img-2";
-    grid-column-gap: 4em;
-    grid-row-gap: 4em;
+    grid-column-gap: 2em;
+    grid-row-gap: 2em;
     max-width: 800px;
   }
 
@@ -335,6 +335,12 @@ header {
 
   .portfolio__text-2 {
     grid-area: paragraph-2;
+  }
+}
+
+@media (min-width: 600px) {
+  .portfolio__text--recipes {
+    text-align: center;
   }
 }
 
