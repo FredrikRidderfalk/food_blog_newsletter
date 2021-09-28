@@ -23,6 +23,15 @@
       href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,900|Source+Sans+Pro:300,900&display=swap"
       rel="stylesheet"
     />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fredericka+the+Great&display=swap" rel="stylesheet">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Caveat:wght@600&family=Fredericka+the+Great&display=swap" rel="stylesheet">
+
   </head>
   <body>
     <header>
@@ -39,9 +48,10 @@
                           <img src="img/instagram.png" alt="instagram icon">
                       </a>
                   </li>
-                  <a href="https://www.youtube.com/" class="nav__link">
-                    <img src="img/youtube.png" alt="youtube icon"></a>
-                </li>
+                  <li class="nav__item">
+                      <a href="https://www.youtube.com/" class="nav__link">
+                        <img src="img/youtube.png" alt="youtube icon"></a>
+                    </li>
                 <li class="nav__item">
                     <a href="#" class="nav__link"><img src="img/facebook.png" alt="facebook icon"></a>
                 </li>
@@ -58,7 +68,7 @@
       <h1 class="section__title section__title--intro">
         Hi Hannah, <strong>I'm glad you're here!</strong>
       </h1>
-      <p class="section__subtitle section__subtitle--intro">let me feed you!</p>
+      <p class="section__subtitle section__subtitle--intro">Let me feed you!</p>
       <img
         src="img/pasta.png"
         alt="a picture of a bowl of pasta"
@@ -81,6 +91,9 @@
         class="intro__img"
       />
     </section>
+
+    <!-- section separator -->
+    <div class="separator"></div>
 
     <!-- Browse our recipes (grid layout) -->
     <section class="our-recipes" id="recipes">
@@ -136,8 +149,10 @@
 
     </section>
 
-    <!-- Check out our latest video -->
+    <!-- section separator -->
+    <div class="separator"></div>
 
+    <!-- Check out our latest video -->
     <section class="latest-video" id="videos">
       <div class="section__title--container">
         <h2 class="section__title section__title--video">Check out our latest video</h2>
@@ -168,25 +183,25 @@
         <a href="#" class="btn">Watch more</a>
     </section>
 
-    
+    <!-- section separator -->
+    <div class="separator"></div>
 
     <!-- Footer -->
     <footer class="footer">
       <ul class="social-list">
         <li class="social-list__item">
           <a
-            href="https://www.linkedin.com/in/fredrikridderfalk/"
+            href=""
             class="social-list__link"
             target="_blank"
-            ><i class="fab fa-linkedin-in"></i
-          ></a>
+            ><i class="fab fa-instagram"></i></a>
         </li>
         <li class="social-list__item">
           <a
-            href="https://github.com/FredrikRidderfalk"
+            href=""
             class="social-list__link"
             target="_blank"
-            ><i class="fab fa-github"></i
+            ><i class="fab fa-facebook"></i
           ></a>
         </li>
         <li class="social-list__item">
@@ -209,8 +224,8 @@
 
       <p>
         You can
-        <a href="#" class="footer__link">update your preferences</a> or
-        <a href="#" class="footer__link">unsubscribe from the newsletter here</a
+        <a href="#" class="footer__link"><em>update your preferences</em></a> or
+        <a href="#" class="footer__link"><em>unsubscribe from the newsletter here</em></a
         >.
       </p>
     </footer>
