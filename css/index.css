@@ -140,7 +140,7 @@ h3 {
 
 header {
   margin: 0 auto;
-  background-color: var(--clr-accent);
+  /* background-color: var(--clr-accent); */
   padding-bottom: 3px;
 }
 
@@ -152,27 +152,42 @@ header {
 
 .nav {
   color: var(--clr-dark);
-  padding-right: 2em;
-}
-
-@media (min-width: 800px) {
-  .nav .nav__link {
-    font-size: var(--fs-h3);
-  }
 }
 
 .nav__list {
   list-style: none;
   display: flex;
+  padding-left: 0;
   justify-content: space-evenly;
 }
 
 .nav__link {
   color: inherit;
   font-weight: var(--fw-bold);
-  font-size: var(--fs-body);
-  /* text-decoration: none; */
-  text-transform: uppercase;
+}
+
+.nav__link img {
+  height: 30px;
+}
+
+@media (min-width: 400px) {
+  .nav .nav__link {
+    font-size: var(--fs-body);
+  }
+}
+
+@media (min-width: 600px) {
+  .nav .nav__link,
+  .nav__link img {
+    font-size: var(--fs-body);
+    height: 40px;
+  }
+}
+
+@media (min-width: 800px) {
+  .nav .nav__link {
+    font-size: var(--fs-h3);
+  }
 }
 
 /* Intro section */
