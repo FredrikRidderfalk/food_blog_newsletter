@@ -140,7 +140,7 @@ h3 {
 
 header {
   margin: 0 auto;
-  background-color: rgb(245, 245, 245);
+  background-color: var(--clr-accent);
   padding-bottom: 3px;
 }
 
@@ -328,12 +328,10 @@ header {
 /* latest video section */
 
 .latest-video {
-  background-color: hsl(0, 0%, 40%);
   background-size: cover;
-  color: var(--clr-light);
+  color: var(--clr-dark);
   background-blend-mode: multiply;
   text-align: center;
-  border: 1px solid magenta;
   padding-top: 3em;
   padding-bottom: 2em;
 }
@@ -343,7 +341,7 @@ header {
 }
 
 .section__title--video {
-  color: var(--clr-accent);
+  color: var(--clr-dark);
   position: relative;
 }
 
