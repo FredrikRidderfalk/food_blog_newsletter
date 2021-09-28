@@ -79,7 +79,7 @@ strong {
   background: var(--clr-accent);
   color: var(--clr-dark);
   text-decoration: none;
-  font-size: 1rem;
+  font-size: var(--fs-body);
   font-weight: var(--fw-bold);
   letter-spacing: 2px;
   transition: all 200ms ease-in-out;
@@ -350,43 +350,14 @@ header {
 /* latest video section */
 
 .latest-video {
-  background-size: cover;
-  color: var(--clr-dark);
-  background-blend-mode: multiply;
   text-align: center;
-  padding-top: 3em;
-  padding-bottom: 2em;
+  padding: 3em 2em;
+  max-width: 800px;
+  margin: 0 auto;
 }
 
-.service__text {
-  text-align: left;
-}
-
-.section__title--video {
-  color: var(--clr-dark);
-  position: relative;
-}
-
-.services {
-  margin-bottom: 3em;
-}
-
-.service {
-  margin: 3em auto 0;
-  max-width: 500px;
-}
-
-@media (min-width: 600px) {
-  .latest-video {
-    display: flex;
-    max-width: 800px;
-    margin-left: auto;
-    margin-right: auto;
-  }
-
-  .service + .service {
-    margin-left: 2em;
-  }
+.latest-video__container {
+  margin: 3em 0;
 }
 
 /* Footer */
