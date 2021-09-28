@@ -62,21 +62,22 @@
 
     <!-- About the blog -->
     <section class="about-us" id="about">
-      <h2>About us</h2>
+      <h2 class="section__title section__title--about">About us</h2>
       <p>
         Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vitae,
         blanditiis quibusdam accusamus sequi eum, tempore impedit molestias
         beatae saepe ipsa mollitia nostrum non quod earum eveniet rerum quasi
         culpa provident.
       </p>
+      <img
+        src="img/pasta.png"
+        alt="a picture of a bowl of pasta"
+        class="intro__img"
+      />
     </section>
 
     <!-- Browse our recipes (grid layout) -->
-    <section class="my-work" id="work">
-      <h2 class="section__title section__title--work">Plant-based recipes</h2>
-      <p>
-        On our blog and Instagram you will find all our recipes with links to our YouTube video recipes.
-      </p>
+    <section class="our-recipes" id="recipes">
 
       <div class="portfolio">
         <!-- Portfolio item 1 -->
@@ -104,9 +105,6 @@
         <div class="portfolio__text portfolio__text-2">
           <h3 class="portfolio__subtitle">Chrome Extension</h3>
           <p>
-            An extension built from scratch and deployed to the Chrome browser.
-          </p>
-          <p>
             Bookmarks and displays any links by input, and can also with a
             single click save the link for the current tab in focus. This is a
             great way to save recipes found in the wild wild web, and separate
@@ -125,55 +123,24 @@
           />
         </a>
 
-        <!-- Portfolio item 3 -->
-        <div class="portfolio__text portfolio__text-3">
-          <h3 class="portfolio__subtitle">Blackjack Game</h3>
-          <p>
-            Developed with CSS/JavaScript. The classic game of Blackjack.
-            featuring an engaging layout, responsive updates from the Blackjack
-            dealer, your name and remaining bankroll, .
-          </p>
-        </div>
-        <a
-          href="#"
-          class="portfolio__item portfolio__item-3"
-          target="_blank"
-        >
-          <img
-            src="img/pasta.png"
-            alt=""
-            class="portfolio__img portfolio__img-3"
-          />
-        </a>
+        <div class="portfolio__text portfolio__text--recipes">
+        <h2 class="section__title section__title--recipes">Find the rest and more on our website</h2>
+        <p>
+          On our blog and Instagram you will find all our recipes with links to our YouTube video recipes.
+        </p>
+    </div>
 
-        <!-- Portfolio item 4 -->
-        <div class="portfolio__text portfolio__text-4">
-          <h3 class="portfolio__subtitle">Passenger Counter</h3>
-          <p>
-            Developed with JavaScript. A streamlined counting app featuring a
-            counter, an increment button, and a save button that logs the
-            counted number to an array.
-          </p>
+        <div class="more-recipes__btn">
+            <a href="#" class="btn">Discover recipes</a>
         </div>
-        <a
-          href="#"
-          class="portfolio__item portfolio__item-4"
-          target="_blank"
-        >
-          <img
-            src="img/pasta.png"
-            alt=""
-            class="portfolio__img portfolio__img-4"
-          />
-        </a>
 
     </section>
 
     <!-- Check out our latest video -->
 
-    <section class="my-services" id="services">
+    <section class="latest-video" id="videos">
       <div class="section__title--container">
-        <h2 class="section__title section__title--services">Check out our latest video</h2>
+        <h2 class="section__title section__title--video">Check out our latest video</h2>
       </div>
 
       <div>
@@ -183,9 +150,9 @@
           target="_blank"
         >
           <img
-            src="img/pasta.png"
+            src="img/latest-video.png"
             alt=""
-            class="portfolio__img portfolio__img-3"
+            class="portfolio__img"
           />
         </a>
       </div>
@@ -198,7 +165,7 @@
           </p>
         </div>
 
-      <a href="#work" class="btn">Watch more</a>
+        <a href="#" class="btn">Watch more</a>
     </section>
 
     
